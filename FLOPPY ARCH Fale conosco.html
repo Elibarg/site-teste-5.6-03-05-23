@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="menu.css">
     <link rel="stylesheet" type="text/js" href="menu.js">
     <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -34,15 +35,15 @@
     <div class="disc">
         <img src="img/disquete gif.gif" class="disquete">
         <img src="img/disquete gif.gif" class="disquete2">
-        <div class="animação">
-        </div>
-        <font style="font-family: 'Common Pixel', sans-serif; color: yellow; font-size: 25px; position: absolute; left: 34%;; top: 21%;"> Mensagem :</font> :
-        <div style="position: absolute; left:45%; top: 21%;">
+        
+        
+        <font style="animation: bounceInUp 5s; font-family: 'Common Pixel', sans-serif; color: yellow; font-size: 25px; position: absolute; left: 34%;; top: 21%;"> Mensagem :</font> :
+        <div style="animation: bounceInUp 5s; position: absolute; left:45%; top: 21%;">
             <input type="text" id="mensagem">
-            <button style="color: darkblue;font-family: 'Common Pixel', sans-serif;" onclick="Enviar();">Enviar</button>
-            <button style="color: darkblue;font-family: 'Common Pixel', sans-serif;" onclick="LimparMensagens();">Limpar</button>
+            <button style="animation: bounceInUp 5s; color: darkblue;font-family: 'Common Pixel', sans-serif;" onclick="Enviar();">Enviar</button>
+            <button style="animation: bounceInUp 5s; color: darkblue;font-family: 'Common Pixel', sans-serif;" onclick="LimparMensagens();">Limpar</button>
         </div>
-        <div style=" position: absolute; left: 45%; top: 25%; font-size: 19px; color: yellow;font-family: 'Common Pixel', sans-serif; max-height: 300px; overflow-y:auto;"
+        <div style="animation: bounceInUp 5s; position: absolute; left: 45%; top: 25%; font-size: 19px; color: yellow;font-family: 'Common Pixel', sans-serif; max-height: 300px; overflow-y:auto;"
             id="resposta"> </div>
     </div>
 </body>
